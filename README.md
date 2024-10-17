@@ -7,4 +7,4 @@
 - Models
 - Inherit Widget
 - BlocC
-- Redux
+
