@@ -5,7 +5,7 @@ import '../components/hamburger_menu.dart';
 import '../models/client.dart';
 
 class ClientsPage extends StatefulWidget {
-  const ClientsPage({Key? key, required this.title}) : super(key: key);
+  const ClientsPage({super.key, required this.title});
   final String title;
 
   @override
@@ -33,8 +33,9 @@ class _ClientsPageState extends State<ClientsPage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
-      ),
+        title: Text(widget.title, style: const TextStyle(color: Colors.white)),
+    backgroundColor: Colors.indigo,
+    ),
       drawer: const HamburgerMenu(),
       body: ListView.builder(
         itemCount: clients.length,
