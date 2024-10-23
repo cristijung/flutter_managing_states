@@ -7,5 +7,5 @@ https://pub.dev/
 - Redux
 - Models
 - Inherit Widget
-- BlocC
+- BloC
 
