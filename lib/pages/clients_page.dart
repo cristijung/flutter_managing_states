@@ -41,7 +41,7 @@ class _ClientsPageState extends State<ClientsPage> {
             itemBuilder: (context, index) {
               return Dismissible(
                 key: UniqueKey(),
-                background: Container(color: Colors.red),
+                background: Container(color: Colors.indigo),
                 child: ListTile(
                   leading: Icon(list.clients[index].type.icon),
                   title: Text(list.clients[index].name + ' ('+ list.clients[index].type.name + ')'),
