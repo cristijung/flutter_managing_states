@@ -28,7 +28,7 @@ void main() {
   });
 
   group('Types Test', () {
-    final gold = ClientType(name: 'Gold', icon: Icons.star);
+    final gold = ClientType(name: 'Golden', icon: Icons.star);
 
     test('Types model should add new type', () {
       var types = Types(types: []);

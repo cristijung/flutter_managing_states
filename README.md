@@ -15,4 +15,5 @@ https://pub.dev/
 - Models
 - Inherit Widget
 - BloC
-
+- Testes de unidade
+- Teste de integração: add dependência no `pbsec.yaml` --> linha 40: `integration_test: sdk flutter`
