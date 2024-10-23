@@ -32,10 +32,7 @@ Future<IconData?> showIconPicker(
     Icons.radar,
   ];
 
-  // selected icon
-  // the selected icon is highlighed
-  // so it looks different from the others
-  IconData? selectedIcon = defalutIcon;
+ IconData? selectedIcon = defalutIcon;
 
   await showDialog(
       context: context,
@@ -58,7 +55,6 @@ Future<IconData?> showIconPicker(
                 padding: const EdgeInsets.all(10),
                 child: Center(
                   child: IconButton(
-                    // give the selected icon a different color
                     color: selectedIcon == allIcons[index]
                         ? Colors.indigo
                         : Colors.black,
